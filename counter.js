@@ -1,4 +1,4 @@
-export const allItems = [
+export const myAllData = [
   {id:'1', name: 'Mango',
     img:'https://cdn.zeptonow.com/production///tr:w-200,ar-500-500,pr-true,f-webp,q-80/inventory/product/01e5ea5f-9b18-42e1-8c16-b00ea2af2f18-f8e39466-1999-455e-be70-395c295d9280.jpeg',
     price:100,
@@ -144,4 +144,18 @@ export const allItems = [
      price:60,
           countryOfOrigin:'India',
           categories:['hydroponics'] },
+];
+
+
+export const subCategories = [
+  {type:'Vegetables',icon:'https://cdn.zeptonow.com/production///tr:w-90,ar-500-500,pr-true,f-webp,q-80/inventory/subcategory/14ce93e3-cfe8-47b1-a76a-0f54cee99389-image_file.png'},
+  {type:'fruits',icon:'https://cdn.zeptonow.com/production///tr:w-90,ar-500-500,pr-true,f-webp,q-80/inventory/subcategory/6a18617b-93ce-429d-af41-f516d56142dc-image_file.png'},
+  {type:'driedfruits',icon:'https://cdn.zeptonow.com/production///tr:w-90,ar-300-168,pr-true,f-webp,q-80/inventory/subcategory/fe3abb64-ba6d-417b-b9bc-5ff92a662263-Dried___Dehydrated_Fruits-removebg-preview.png'},
+  {type:'leafty',icon:'https://cdn.zeptonow.com/production///tr:w-90,ar-280-280,pr-true,f-webp,q-80/inventory/subcategory/1ee72135-0629-4236-b7a8-1b2521bc2146-image_file.png'},
+  {type:'exotic fuits',icon:'https://cdn.zeptonow.com/production///tr:w-90,ar-280-280,pr-true,f-webp,q-80/inventory/subcategory/7d376d42-7865-4421-ac76-330fd5c478b8-image_file.png'},
+  {type:'cutes & sprouts',icon:'https://cdn.zeptonow.com/production///tr:w-90,ar-280-280,pr-true,f-webp,q-80/inventory/subcategory/5acefea5-2b32-46ae-8a7b-e773f1000ef1-image_file.png'},
+  {type:'organic & residue',icon:'https://cdn.zeptonow.com/production///tr:w-90,ar-280-280,pr-true,f-webp,q-80/inventory/subcategory/8a4cc612-f011-4cf8-9aa1-748f1f6d0c88-image_file.png'},
+  {type:'leaves & flowers',icon:'https://cdn.zeptonow.com/production///tr:w-90,ar-500-500,pr-true,f-webp,q-80/inventory/subcategory/1d42e568-90d2-446d-8046-1627699d6d1e-image_file.png'},
+  {type:'hydroponics',icon:'https://cdn.zeptonow.com/production///tr:w-90,ar-600-292,pr-true,f-webp,q-80/inventory/subcategory/bcab4b25-9dc4-44a1-94df-668d7f606830-hydro_image.png'},
+
 ];
